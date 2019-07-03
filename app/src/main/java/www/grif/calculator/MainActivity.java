@@ -30,20 +30,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button buttonzero = (Button)findViewById(R.id.bt_button0_id);
-        buttonzero.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                editText.setText(editText.getText() + "0");
-            }
-        });
-        Button buttonone = (Button)findViewById(R.id.bt_button1_id);
-        buttonone.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                editText.setText(editText.getText() +"1");
-            }
-        });
+
 
 
     }
