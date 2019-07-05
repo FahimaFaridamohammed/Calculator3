@@ -28,6 +28,9 @@
         android:layout_marginStart="10dp"
         android:padding="10dp"
         android:textStyle="bold"
+        android:background="@color/colorwhite"
+        android:textColor="@color/colorlime"
+
         />
     <Button
         android:layout_width="wrap_content"
@@ -40,6 +43,8 @@
         android:layout_marginStart="5dp"
         android:padding="10dp"
         android:textStyle="bold"
+        android:background="@color/colorwhite"
+        android:textColor="@color/colorlime"
         />
     <Button
         android:layout_width="wrap_content"
@@ -49,7 +54,9 @@
         android:layout_alignTop="@id/bt_button2_id"
         android:layout_toRightOf="@id/bt_button2_id"
         android:padding="10dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:background="@color/colorwhite"
+        android:textColor="@color/colorlime"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -59,7 +66,9 @@
         android:layout_below="@id/bt_button1_id"
         android:layout_marginStart="10dp"
         android:padding="10dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:background="@color/colorwhite"
+        android:textColor="@color/colorlime"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -70,7 +79,9 @@
         android:layout_toRightOf="@id/bt_button4"
         android:layout_marginStart="5dp"
         android:padding="10dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:background="@color/colorwhite"
+        android:textColor="@color/colorlime"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -81,6 +92,8 @@
         android:layout_toRightOf="@id/bt_button5_id"
         android:padding="10dp"
         android:textStyle="bold"
+        android:background="@color/colorwhite"
+        android:textColor="@color/colorlime"
         />
 
     <Button
@@ -92,6 +105,8 @@
         android:layout_marginStart="10dp"
         android:padding="10dp"
         android:textStyle="bold"
+        android:background="@color/colorwhite"
+        android:textColor="@color/colorlime"
         />
     <Button
         android:layout_width="wrap_content"
@@ -103,6 +118,8 @@
         android:layout_marginStart="5dp"
         android:padding="10dp"
         android:textStyle="bold"
+        android:background="@color/colorwhite"
+        android:textColor="@color/colorlime"
         />
 
     <Button
@@ -114,6 +131,8 @@
         android:layout_toRightOf="@id/bt_button8_id"
         android:padding="10dp"
         android:textStyle="bold"
+        android:background="@color/colorwhite"
+        android:textColor="@color/colorlime"
         />
 
     <Button
@@ -126,6 +145,8 @@
         android:layout_marginStart="10dp"
         android:padding="10dp"
         android:textStyle="bold"
+        android:background="@color/colorwhite"
+        android:textColor="@color/colorlime"
         />
 
     <Button
@@ -138,6 +159,8 @@
         android:layout_marginStart="5dp"
         android:padding="10dp"
         android:textStyle="bold"
+        android:background="@color/colorwhite"
+        android:textColor="@color/colorlime"
         />
 
     <Button
@@ -149,6 +172,8 @@
         android:layout_toRightOf="@id/bt_button0_id"
         android:padding="10dp"
         android:textStyle="bold"
+        android:background="@color/colorwhite"
+        android:textColor="@color/colorlime"
         />
     <Button
         android:layout_width="wrap_content"
@@ -160,6 +185,8 @@
         android:layout_marginStart="15sp"
         android:padding="10dp"
         android:textStyle="bold"
+        android:background="@color/colorwhite"
+        android:textColor="@color/colorlime"
 
         />
     <Button
@@ -173,6 +200,8 @@
         android:textSize="20dp"
         android:padding="10dp"
         android:textStyle="bold"
+        android:background="@color/colorwhite"
+        android:textColor="@color/colorlime"
         />
     <Button
         android:layout_width="wrap_content"
@@ -185,6 +214,8 @@
         android:layout_marginStart="15dp"
         android:padding="10dp"
         android:textStyle="bold"
+        android:background="@color/colorwhite"
+        android:textColor="@color/colorlime"
 
 
 
@@ -200,6 +231,8 @@
         android:layout_marginStart="15sp"
         android:padding="10dp"
         android:textStyle="bold"
+        android:background="@color/colorwhite"
+        android:textColor="@color/colorlime"
 
         />
     <Button
@@ -214,6 +247,8 @@
         android:layout_marginTop="15sp"
         android:padding="10dp"
         android:textStyle="bold"
+        android:background="@color/colorlime"
+        android:textColor="@color/colorwhite"
         />
 
 
