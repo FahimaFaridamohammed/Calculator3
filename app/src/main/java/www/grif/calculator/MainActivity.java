@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-   @Override
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -39,7 +39,9 @@ public class MainActivity extends AppCompatActivity {
         buttonequal = (Button)findViewById(R.id._buttonequal_id);
         buttonmultiply = (Button)findViewById(R.id.bt_buttonmult_id);
         buttonsub = (Button)findViewById(R.id.bt_buttonsub_id);
-        editText = (EditText)findViewById(R.id.et_edt1_id);
+        editText = (EditText)findViewById(R.id.et_display_id);
+
+
 
 
        button0.setOnClickListener(new View.OnClickListener() {
@@ -105,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
        buttonadd.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
-               if(editText == null) {
+               if(editText== null) {
                    editText.setText("");
                }else{
                    mValueone = Float.parseFloat(editText.getText()+"");
@@ -172,7 +174,29 @@ public class MainActivity extends AppCompatActivity {
        button10.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
-               editText.setText(editText.getText() + ".");
+               editText.setText(editText
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       .getText() + ".");
            }
        });
 
